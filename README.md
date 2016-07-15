@@ -1,4 +1,4 @@
-Angular2Simple
+Andrews version of Angular2Simple w/ bootstrap
 ===================
 
 `Angular2Simple` is a simple seed project for Angular 2 using WebPack. I needed a seed project to seed the boilerplate code for my Angular 2 projects, and the only generators and seeds I could find were heavy and bulky with 50 plugins I would never use. So I decided to make one on my own from scratch.
@@ -16,5 +16,7 @@ After cloning the repository, just run `npm install` to install all the dependen
 Once you have everything in place, you can run `webpack` on the directory to run webpack which runs in watch mode by default with livereload, meaning every time you make a change, webpack will compile automatically and livereload will refresh your browser page if you have the plugin installed. Make sure you have webpack installed globally as well, which can be done using `npm install -g webpack`.
 
 The built in web server will run in port 3000, and can be accessed at `http://localhost:3000`.
+
+Remember in order to run the web server you will need to do a npm install -g express, and then navigate to the directory and type "node server"
 
 Feedback, issues and pull requests are welcome.
